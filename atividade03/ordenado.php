@@ -21,7 +21,7 @@
     <div class="container">
         <div class="jumbotron">
             <p class="h1 text-center py-4">Manipulação de Arrays em PHP</p>
-            <p class="text-center py-4">Exibindo todos os dados cadastradosem ordem alfabética crescente pelo nome.</p>
+            <p class="text-center py-4">Exibindo todos os dados cadastrados em ordem alfabética crescente pelo nome.</p>
         </div>
     </div>
     <div class="container">

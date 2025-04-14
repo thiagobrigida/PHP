@@ -1,7 +1,7 @@
 <?php
     include 'dados.php';
     function filtro($a){
-        return $a['estilo'] == 'Rock';
+        return $a['estilo'] != 'Rock';
     }
     $dados = array_filter($dados, 'filtro');
 ?>
