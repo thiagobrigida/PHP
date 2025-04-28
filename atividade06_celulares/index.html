@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <nav class="p-2 navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./img/bootstrap-solid.svg" width="30" height="30" alt="">
+      </a>
+    </nav>
+
+    <h1>Informe os dados de 5 pessoas</h1>
+
+        <form action="dados.php" method="post">
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="nomea"> Nome </label>
+                    <input type="text" class="form-control" name="nomea" required>
+                </div>
+                    <div class="col-sm-4">
+                    <label for="osa">S.O preferido: </label>
+                    <select name="osa" id="osa" class="form-select">
+                            <option value=""></option>
+                            <option value="android">Android</option>
+                            <option value="ios">IOS</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="nomeb"> Nome </label>
+                    <input type="text" class="form-control" name="nomeb" required>
+                </div>
+                    
+                    <div class="col-sm-4">
+                    <label for="osb">S.O preferido: </label>
+                        <select name="osb" id="osb" class="form-select">
+                            <option value=""></option>
+                            <option value="android">Android</option>
+                            <option value="ios">IOS</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="nomec"> Nome </label>
+                    <input type="text" class="form-control" name="nomec" required>
+                </div>
+                    <div class="col-sm-4">
+                    <label for="osc">S.O preferido: </label>
+                        <select name="osc" id="osc" class="form-select">
+                            <option value=""></option>
+                            <option value="android">Android</option>
+                            <option value="ios">IOS</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="nomed"> Nome </label>
+                    <input type="text" class="form-control" name="nomed" required>
+                </div>
+                    <div class="col-sm-4">
+                    <label for="osd">S.O preferido: </label>
+                        <select name="osd" id="osd" class="form-select">
+                            <option value=""></option>
+                            <option value="android">Android</option>
+                            <option value="ios">IOS</option>
+                        </select>
+                    </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4">
+                    <label for="nomee"> Nome </label>
+                    <input type="text" class="form-control" name="nomee" required>
+                </div>
+                    <div class="col-sm-4">
+                    <label for="ose">S.O preferido: </label>
+                        <select name="ose" id="ose" class="form-select">
+                            <option value=""></option>
+                            <option value="adroid">Android</option>
+                            <option value="ios">IOS</option>
+                        </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary py-2" type="submit">Enviar</button>
+            </div>
+        </form>
+</body>           
+</html>
