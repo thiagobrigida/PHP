@@ -37,22 +37,50 @@
             <p class="h1 text-center py-4">Exibindo o resultado da pesquisa</p>
         </div>
     </div>
-    <h1><span class="badge text-bg-secondary"><?php echo $android ?> pessoas preferem Android</span></h1>
+    <?php?>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php
+                        $i = 0;
+                        foreach( $dados as $linha => $item ){
+                            if($item['so'] == "1"){
+                                $i = $i+1;?>
+                                <th scope="col"><?php echo $item['nome'];}}?></th>
+                             <p class="h2 text-center py-4"> <?php echo $i;?> PREFEREM ANDROID</p>
+                            
 
-    <div class="container">
-        <?php
-        foreach($dados as $linhas => $item){
-            if()
-
-        }
-        
-        
-        
-        ?>
-        <h1><span class="badge text-bg-secondary">Pessoas preferem Android</span></h1>
-
-
-
+            </tbody>
+        </table>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th scope="col">Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+            <?php
+                        $i = 0;
+                        foreach( $dados as $linha => $item ){
+                            if($item['so'] == "2"){
+                                $i = $i+1;?>
+                                <th scope="col"><?php echo $item['nome'];}}?></th>
+                             <p class="h2 text-center py-4"> <?php echo $i;?> PREFEREM IOS</p>
+            </tbody>
+        </table>
     </div>
+    <div class="container">
+                <div class="row">
+                    <a class="btn btn-primary" href="index.html">Novo Cálculo</a>
+                </div>
+            </div>    
+    </div>
+</body> 
+</main>
+ </html>
 
 
